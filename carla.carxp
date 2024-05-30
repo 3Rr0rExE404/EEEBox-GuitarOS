@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.2'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>true</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>120</BeatsPerMinute>
+ </Transport>
+
+ <!-- Guitar Rig 5 -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Guitar Rig 5</Name>
+   <Binary>/root/.vst/Guitar Rig 5.dll</Binary>
+   <UniqueID>1315522357</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <Volume>1.004527</Volume>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f9</Options>
+
+   <CurrentProgramIndex>3</CurrentProgramIndex>
+   <CurrentProgramName>no sound</CurrentProgramName>
+
+   <Chunk>
+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
+z/QDMhkAEaUCJw==
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>Guitar Rig 5:input_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Guitar Rig 5:output_1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Guitar Rig 5:output_2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>

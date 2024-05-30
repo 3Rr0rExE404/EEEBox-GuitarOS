@@ -1,0 +1,6 @@
+config BR2_PACKAGE_QJACKCTL
+	bool "qjackctl"
+	help
+	  Simple JACK control panel.
+	  
+	  https://github.com/rncbc/qjackctl

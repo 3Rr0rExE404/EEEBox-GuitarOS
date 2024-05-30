@@ -1,0 +1,19 @@
+[Unit]
+Description=Carla
+After=xorg.service
+
+[Service]
+Type=simple
+ExecStartPre=/bin/sh /root/alsa.sh
+ExecStartPre=/bin/sh /root/jackstart.sh
+ExecStart=/bin/sh /root/carla.sh
+Restart=always
+RestartSec=1
+TimeoutSec=2
+User=root
+Environment="HOME=/root"
+Environment="DISPLAY=:0.0"
+WorkingDirectory=/root
+
+[Install]
+WantedBy=graphical.target
